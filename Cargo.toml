@@ -1,0 +1,12 @@
+[package]
+name = "devops"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = {version = "4.0.0", features = ["derive"]}
+clap_complete = "4.0.0"
+logger-rust = "0.2.12"
+prettytable-rs = "0.10.0"
+colored = "2.0.0"
+nix = "0.29.0"
